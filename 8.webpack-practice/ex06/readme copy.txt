@@ -1,4 +1,4 @@
-ex04: css 모듈 번들링
+ex04: webpack 개발 서버
 
 1. 설치 패키지
 $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
@@ -7,13 +7,6 @@ $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
    1) entry
    2) output
    3) devServer
-   4) module
-      module: {
-          rules:[{
-              test: /\.css$/i,
-              use:['style-loader', 'css-loader']
-          }]
-      }   
 
 3. 스크립팅
   "scripts": {
