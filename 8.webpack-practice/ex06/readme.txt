@@ -8,6 +8,7 @@ $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-l
    2) output
    3) devServer
    4) module
+<<<<<<< HEAD
       output: {
         assetModuleFilename: 'assets/images/[hash][ext]'
       }
@@ -16,6 +17,14 @@ $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-l
               test: /\.(png|gif|jp?eg|svg|ico|tif?f|bmp)/i,
               type: 'asset/resource'
           }]   
+=======
+      module: {
+          rules:[{
+              test: /\.(c|sa|sc)ss$/i,
+              use:['style-loader', 'css-loader', 'sass-loader']
+          }]
+      }   
+>>>>>>> eb0b581370a8a5e8a909cbcdfa9423758b9b3f97
 
 3. 스크립팅
   "scripts": {
@@ -27,4 +36,8 @@ $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-l
 $ npm run build  
 
 5. 실행
+<<<<<<< HEAD
 $ npm start
+=======
+$ npm start
+>>>>>>> eb0b581370a8a5e8a909cbcdfa9423758b9b3f97
