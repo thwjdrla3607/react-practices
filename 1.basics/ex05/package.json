@@ -1,7 +1,7 @@
 {
   "name": "ex05",
   "version": "1.0.0",
-  "description": "",
+  "description": "ex05: React API 기반의 애플리케이션 리팩토링",
   "main": "index.js",
   "scripts": {
     "start": "npx webpack serve --progress",
